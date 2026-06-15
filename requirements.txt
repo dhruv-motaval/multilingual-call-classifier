@@ -1,0 +1,10 @@
+openai-whisper
+spacy
+ffmpeg-python
+langchain
+python-dotenv
+click
+langchain-groq
+langchain-core
+ffmpeg
+ipykernel
