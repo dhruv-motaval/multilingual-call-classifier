@@ -1,0 +1,21 @@
+# Graph / agent framework
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+
+# Structured output + config
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Speech + NLP (only needed to actually run audio through the pipeline)
+openai-whisper
+spacy
+click>=8.0.0
+torch
+
+# Testing
+pytest>=8.0.0
+
+# After installing, fetch the spaCy model separately:
+#   python -m spacy download en_core_web_sm
