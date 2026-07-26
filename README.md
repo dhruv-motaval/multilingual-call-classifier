@@ -102,7 +102,7 @@ files (`brew install ffmpeg` / `apt install ffmpeg`).
 ## Running it
 
 ```bash
-python run.py sample/sample_calls/open_hindi.mp3
+python run.py sample/sample_calls/test-5.mp3
 ```
 
 This prints the transcript, the detected language (and translation, if
